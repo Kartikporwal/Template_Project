@@ -12,10 +12,10 @@ const ContactSection = () => {
         <div className='grid grid-cols-1 md:grid-cols-2 gap-16'>
             <div>
                 <h2 className='text-xl font-bold text-gray-800 mb-10'>
-                    LOREM IPSUM DOLOR SIT AMET</h2>
+                    CONTACT US</h2>
                     <div className='flex items-center mb-8'>
                         <div className='w-14 h-14 rounded-full  bg-[#f45b2a] flex items-center justify-center text-white text-xl'>
-                             ✉
+                             <i class="fa-regular fa-envelope"></i>
                         </div>
                         <div className='ml-5'>
                             <h3 className='font-bold text-gray-800'>EMAIL</h3>
@@ -26,7 +26,7 @@ const ContactSection = () => {
                     </div>
                     <div className='flex items-center mb-8'>
                         <div className='w-14 h-14 rounded-full bg-[#f45b2a] flex items-center justify-center text-white text-xl'>
-                              ☎
+                              <i class="fa-solid fa-phone"></i>
                         </div>
                         <div className='ml-5'>
                             <h3 className='font-bold text-gray-800'>CALL US !</h3>
@@ -35,7 +35,7 @@ const ContactSection = () => {
                     </div>
                     <div className='flex items-center mb-8'>
                         <div className='w-14 h-14 rounded-full bg-[#f45b2a] flex items-center justify-center text-white text-xl'>
-                              📍
+                            <i class="fa-solid fa-location-dot"></i>
                         </div>
                         <div className='ml-5'>
                             <h3 className='font-bold text-gray-800'>ADDRESS</h3>
