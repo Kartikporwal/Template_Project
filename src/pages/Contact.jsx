@@ -5,9 +5,7 @@ import Visit from '../components/Visit'
 const Contact = () => {
   return (
     <div>
-      <Visit />
       <ContactSection />
-
     </div>
   )
 }

@@ -3,8 +3,7 @@ import React from 'react'
 const Visit = () => {
   return (
     <div className='w-full relative h-[300px] overflow-hidden mt-2'>
-      <img className="" 
-      src="" alt="" />
+      <img className="" src="" alt="" />
 
       <div className='absolute inset-0 bg-[#21172b]/85'></div>
       <div className='relative z-10 h-full flex flex-col items-center justify-center text-center text-white'>
