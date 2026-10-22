@@ -10,7 +10,6 @@ const Footer = () => {
                     @ COPYRIGHT 2026
                 </p>
         </div>
-      
     </div>
   )
 }
